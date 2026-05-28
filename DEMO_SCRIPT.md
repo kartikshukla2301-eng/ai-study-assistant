@@ -163,4 +163,4 @@ The frontend is configured as a Progressive Web App (PWA) using vite-plugin-pwa.
 
 ## 11. Closing
 
-This project helped me understand full-stack development, authentication, MongoDB architecture, protected frontend routes, API integration, deployment workflows, responsive UI systems, and Progressive Web App development. The platform is deployed online and designed to scale into a complete AI-powered study ecosystem.
+This project helped me understand full-stack development, authentication, MongoDB architecture, protected frontend routes, API integration, deployment workflows, responsive UI systems, and Progressive Web App development. The platform is designed to evolve into a scalable AI-powered productivity ecosystem for students and developers.
