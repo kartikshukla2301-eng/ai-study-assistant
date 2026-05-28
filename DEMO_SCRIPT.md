@@ -6,13 +6,15 @@ Use this script during project presentation or viva.
 
 Good morning. My project is called AI Study Assistant. It is a full-stack study platform for students where they can chat with an assistant, generate exam answers, upload PDFs, create revision notes, and manage themes and personal settings.
 
+The platform is fully deployed online using Vercel, Render, and MongoDB Atlas with installable PWA support for mobile devices.
+
 The project is built using React, Vite, TailwindCSS, Express.js, MongoDB, JWT authentication, and an optional FastAPI service for PDF and OCR processing.
 
 ## 2. Authentication Demo
 
 Steps:
 
-1. Open `http://localhost:5173`.
+1. Open `https://ai-study-assistant-eight-psi.vercel.app`.
 2. Click Register.
 3. Create a new account.
 4. Show that the dashboard opens only after login.
@@ -145,6 +147,20 @@ Explanation:
 
 The theme engine uses CSS variables and React context. Theme preferences are stored in localStorage and can also be saved to MongoDB through the settings API.
 
-## 10. Closing
+## 10. PWA / Mobile App Demo
 
-This project helped me understand full-stack development, authentication, MongoDB models, protected frontend routes, file uploads, reusable React components, and API-based architecture. In future, I can integrate a real AI provider API and deploy it online.
+Open the deployed website on a mobile browser.
+
+Show:
+
+- Add to Home Screen
+- Installable app icon
+- Standalone mobile experience
+
+Explanation:
+
+The frontend is configured as a Progressive Web App (PWA) using vite-plugin-pwa. Users can install the platform directly on mobile devices without downloading from an app store.
+
+## 11. Closing
+
+This project helped me understand full-stack development, authentication, MongoDB architecture, protected frontend routes, API integration, deployment workflows, responsive UI systems, and Progressive Web App development. The platform is deployed online and designed to scale into a complete AI-powered study ecosystem.
